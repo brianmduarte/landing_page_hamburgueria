@@ -141,7 +141,7 @@ nav ul li.menu-item a:hover {
     border: 2px solid #FFBD59;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
     .menu-cardapio {
         margin-top: 20%;
         height: auto;
