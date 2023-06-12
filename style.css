@@ -7,7 +7,6 @@ body {
     line-height: 1.4;
     margin: 0 0 0 0;
     position: relative;
-    height: 1500px;
     background-color: #FFBD59;
 }
 
@@ -16,14 +15,13 @@ body {
 }
 
 .logoFind img {
-    width: 400px;
+    width: 100%;
     height: 40px;
     margin-top: 15px;
 }
 
 .wrap {
     width: 100%;
-    min-height: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -142,3 +140,91 @@ nav ul li.menu-item a:hover {
     color: #FFBD59;
     border: 2px solid #FFBD59;
 }
+
+@media (max-width: 768px) {
+    .menu-cardapio {
+        margin-top: 20%;
+        height: auto;
+        width: 80%;
+        font-size: 40px;
+    }
+    
+    .bar {
+        width: 80%;
+    }
+    
+    .menu_cardapio h4 {
+        font-size: 0.8rem;
+        line-height: 24px;
+    }
+    
+    .menu_cardapio a {
+        margin-top: 20px;
+        height: 45px;
+        font-size: 1.2rem;
+    }
+}
+
+    nav ul {
+        display: none;
+    }
+
+    .logoFind {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #slide-2 {
+        display: flex;
+        justify-content: center;
+        background-image: url(images/burgerSection.png);
+        background-position: center;
+        background-size: cover;
+        min-height: 500px;
+    }
+    
+
+    .bar {
+        width: 20%;
+    }
+    
+    .menu_cardapio h2 {
+        font-size: 3rem;
+        margin-top: -15px;
+    }
+
+    .menu_cardapio h4 {
+        font-size: 1rem;
+        line-height: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
+        text-align: start;
+    }
+    
+    .menu_cardapio a {
+        color: #FFBD59;
+        text-align: center;
+        margin-top: 30px;
+        height: 40px;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-left: 20%;
+        margin-right: 35%;
+        border: 2px solid rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: #fd5e5e;
+        border-radius: 10px;
+    }
+    
+    .menu_cardapio a:hover {
+        -webkit-transition: all 0.25s ease-in;
+        transition: all 0.25 ease-in;
+        cursor: pointer;
+        color: #000000;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: #FFBD59;
+        
+    }
